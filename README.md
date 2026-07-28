@@ -1,3 +1,5 @@
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f7979e5f-b821-4a06-9b1c-11f0a8e2c399" />
+[Claude link](https://claude.ai/share/70cbf301-3488-441a-9951-5b8a92b600b4)
 # Laravel + Breeze + Filament + Spatie Permission + Filament Shield
 
 Full Role-Based Access Control (RBAC) setup for a Laravel admin panel using Filament, with Spatie Permission as the underlying permission engine and Filament Shield as the bridge that connects Filament panels to Spatie Permission.
