@@ -1,0 +1,36 @@
+php --version
+composer --version
+composer create-project laravel/laravel . "^12.0"
+code .
+composer require laravel/breeze --dev
+php artisan breeze:install
+npm install
+npm run build
+php artisan migrate
+composer require spatie/laravel-permission
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
+php artisan migrate
+composer require filament/filament:"^3.0-stable" -W
+php artisan filament:install --panels
+php artisan make:filament-user
+php artisan serve
+cls
+composer require bezhansalleh/filament-shield:"^3.0"
+composer require bezhansalleh/filament-shield:"^3.0" -W
+cls
+composer require spatie/laravel-permission:"^6.0" bezhansalleh/filament-shield:"^3.0" -W
+php artisan shield:install
+php artisan shield:super-admin
+php artisan serve
+cls
+php artisan make:model Post -m
+php artisan migrate
+php artisan make:filament-resource Post --generate
+php artisan shield:generate --resource=PostResource
+php artisan serve
+php artisan make:filament-resource User --generate
+php artisan serve
+cls
+php artisan serve
+cls
+doskey /history > "%USERPROFILE%\Desktop\history.txt"
